@@ -10,20 +10,20 @@ The shell reads commands from the user, executes built-in or external commands, 
 * Execution of normal Linux commands
 * Built-in commands:
 
-  * cd
-  * pwd
-  * exit
-  * jobs
-  * fg
-  * bg
-* Background process execution using &
+  * `cd`
+  * `pwd`
+  * `exit`
+  * `jobs`
+  * `fg`
+  * `bg`
+* Background process execution using `&`
 * Job control
-* Pipe support (|)
-* Input and output redirection (<, >, >>)
+* Pipe support (`|`)
+* Input and output redirection (`<`, `>`, `>>`)
 * Signal handling
 
-  * Ctrl + C to terminate foreground process
-  * Ctrl + Z to suspend process
+  * `Ctrl + C` to terminate foreground process
+  * `Ctrl + Z` to suspend process
 
 ## Project Structure
 
@@ -68,14 +68,16 @@ ls > output.txt
 
 This project helped in understanding:
 
-* Process creation using fork()
-* Command execution using execvp()
-* Process control using wait() and signals
+* Process creation using `fork()`
+* Command execution using `execvp()`
+* Process control using `wait()` and signals
 * Inter-process communication using pipes
 * File descriptor manipulation for redirection
 
 ## Author
 
 Jayesh Jagtap
+
 Electronics and Telecommunication Engineering
+
 Dr. D. Y. Patil Institute of Technology
